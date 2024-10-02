@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Hello</pattern>
+	    <template>Hi! How are you? Are you a Computing Major interested 
+	    in learning about professions in computing?
+    	    <button value="Yes">Yes</button>
+    	    <button value="No">No</button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Yes</pattern>
+        <template>Great! Which of the following did you like the most in your studies
+        or if you haven't encountered them which do you think you would like
+        the most?
+            <button value="Algorithms">Algorithms</button>
+            <button value="Styling">Styling</button>
+            <button value="Security">Security</button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>No</pattern>
+        <template>That's ok but I can't help with other majors!
+        Have a good day</template>
+    </category>
+    
+    <category>
+        <pattern>Algorithms</pattern>
+        <template>Which of the following do you like better?
+            <button value="Networking">Networking</button>
+            <button value="Design Patterns">Design Patterns</button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Styling</pattern>
+        <template>Which of the following do you like better
+            <button value="Web Development">Web Development</button>
+            <button value="Mobile Development">Mobile Development</button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Security</pattern>
+        <template>Based on your inputs I think a great profession would be a security engineer.
+        A security engineer is responsible for the security of a bussiness's systems! You can learn more here
+            <a href="https://www.coursera.org/articles/what-is-a-security-engineer">Security Engineer Info</a>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Networking</pattern>
+        <template>Based on your inputs I think a great profession would be a networking engineer. A networking
+        engineer is responsible for managing an organizations networks. This includes things like routers, firewalls,
+        switches, and subnets just to name a few. You can find more info here
+            <a 
+            href="https://www.wgu.edu/career-guide/information-technology/network-engineer-career.html#careerguidePop">
+                Network Engineer</a>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Design Patterns</pattern>
+        <template>Based on your inputs I think a great profession would be a Back-end Software Engineer. Back-end
+        software engineers design systems that are usually run on servers. Many popular back end languages include
+        C#, Java, C++, JavaScript and many more. Learn More Here
+            <a href="https://www.coursera.org/articles/back-end-developer">Back-end Software Engineer</a>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Web Development</pattern>
+        <template>Based on your input I think a great profession would be a Web Developer. A web developer
+        is normally responsible for designing and writing the client side of a application. You can learn more
+        about it here.
+            <a href="https://www.coursera.org/articles/web-developer">Web Developer</a>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Mobile Development</pattern>
+        <template>Based on your input I think a great profession would be a Mobile Developer. A mobile developer
+        is normally responsible for designing and developing mobile apps. You can learn more about it here.
+            <a 
+            href="https://www.wearedevelopers.com/lexicon/mobile-developer#:~:text=A%20mobile%20developer%20is%20a,maintaining%20applications%20for%20mobile%20devices.">
+                Mobile Developer</a>
+            </template>
+    </category>
+</aiml>
